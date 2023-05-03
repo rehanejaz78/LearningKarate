@@ -4,4 +4,4 @@ Feature: Get Feature
     When method get
     Then status 200
     And print "Response ... ", response
-    
+    ..........
