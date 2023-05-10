@@ -4,7 +4,8 @@ Feature: Get Feature
     * def userDetails = read("../schemaValidation/userinfo.json")
   Scenario: Get Scenario
 
-    Given url "https://reqres.in/api/users/2"
+
+    Given url    baseUrl+"/2"
     When method get
     Then status 200
     And match response == userDetails
