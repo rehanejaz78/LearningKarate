@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c695ee-e49a-4e94-a7ce-5a4250b8b86c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/example1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/example1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/get.requests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/get.requests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/post.request.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/post.request.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Paractice/Getrequest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
