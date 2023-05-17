@@ -18,3 +18,5 @@ Feature: Create user request
     * status 201
     * match response.name == "Rehan Ejaz"
     * print response
+  * print 'Post Request'
+

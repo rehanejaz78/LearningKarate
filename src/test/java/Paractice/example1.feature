@@ -2,6 +2,7 @@ Feature: create airline
   Background:
     * def randomId = Java.type("Utilities.RandomNumber").generateRandomInt(1,10000)
 
+    @Smoke2
   Scenario: Create airline request
 
 
@@ -23,3 +24,4 @@ Feature: create airline
     * method post
     * status 200
     * print response
+

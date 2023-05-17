@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c695ee-e49a-4e94-a7ce-5a4250b8b86c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Paractice/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/example1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/example1.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/get.requests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/get.requests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/post.request.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/post.request.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TestRunner.getApi">
+}</component>
+  <component name="RunManager" selected="JUnit.TestRunner.testFeature">
     <configuration name="Feature: get.requests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Paractice/get.requests.feature" />
@@ -54,26 +56,6 @@
       <module name="LearningKarate" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: get.requests" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Create airline request" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Paractice/example1.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="LearningKarate" />
-      <option name="NAME_FILTER" value="^Create airline request$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Create airline request$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Create airline request" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -105,22 +87,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Get request for arline with ID" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Paractice/getAirline.request.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="TestRunner.TestTags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearningKarate" />
-      <option name="NAME_FILTER" value="^Get request for arline with ID$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get request for arline with ID$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get request for arline with ID" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="Paractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Paractice" />
+      <option name="MAIN_CLASS_NAME" value="Paractice.TestRunner" />
+      <option name="METHOD_NAME" value="TestTags" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,6 +114,22 @@
       <option name="PACKAGE_NAME" value="Paractice" />
       <option name="MAIN_CLASS_NAME" value="Paractice.TestRunner" />
       <option name="METHOD_NAME" value="getApi" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner.testFeature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearningKarate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Paractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Paractice" />
+      <option name="MAIN_CLASS_NAME" value="Paractice.TestRunner" />
+      <option name="METHOD_NAME" value="testFeature" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner.testFeature" />
+        <item itemvalue="JUnit.TestRunner.TestTags" />
         <item itemvalue="JUnit.TestRunner.getApi" />
         <item itemvalue="Cucumber Java.Scenario: Get Scenario" />
         <item itemvalue="Cucumber Java.Feature: get.requests" />
-        <item itemvalue="Cucumber Java.Scenario: Get request for arline with ID" />
-        <item itemvalue="Cucumber Java.Scenario: Create airline request" />
       </list>
     </recent_temporary>
   </component>
