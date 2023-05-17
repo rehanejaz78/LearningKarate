@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c695ee-e49a-4e94-a7ce-5a4250b8b86c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Paractice/Getrequest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Paractice/Getrequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Paractice/Getrequest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +43,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestRunner.testFeature">
-    <configuration name="Feature: get.requests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Conditional Statements evaluation">
+    <configuration name="Scenario: Conditional Statements evaluation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Paractice/get.requests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Paractice/Getrequest.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="LearningKarate" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: get.requests" />
+      <option name="NAME_FILTER" value="^Conditional Statements evaluation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Conditional Statements evaluation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Conditional Statements evaluation" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Conditional Statements evaluation" />
         <item itemvalue="JUnit.TestRunner.testFeature" />
         <item itemvalue="JUnit.TestRunner.TestTags" />
         <item itemvalue="JUnit.TestRunner.getApi" />
         <item itemvalue="Cucumber Java.Scenario: Get Scenario" />
-        <item itemvalue="Cucumber Java.Feature: get.requests" />
       </list>
     </recent_temporary>
   </component>
