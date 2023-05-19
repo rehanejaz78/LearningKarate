@@ -5,13 +5,13 @@ Feature: Example of Conditional Statements
     * status 200
     * def outputID = []
     * def outputEmail = []
-    * def outputName = []
+    * def outputFirstName = []
 #    * eval for(var i=0;i<response.data.length;i++) if(response.data[i].first_name == 'Michael') outputEmail[i]=response.data[i].email
-    * eval for(var i=0;i<response.data.length;i++) if(response.data[i].id<14) outputEmail[i]=response.data[i].email,outputName[i]=response.data[i].first_name
+   # * eval for(var i=0;i<response.data.length;i++) if(response.data[i].id==7) outputEmail[i]=response.data[i].email,outputFirstName[i]=response.data[i].first_name
 
-
+    * eval for(var i=0;i<response.data.length;i++) if(response.data[i].id == '10') outputEmail[0]=response.data[i].email,outputFirstName[0]=response.data[i].first_name
     * print response
     * print outputEmail
-    * print outputName
+    * print outputFirstName
 
 #  match responseType == 'json'
